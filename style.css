@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    cursor: none;
+  }
+  
+  .sculpture-container {
+    width: 100vw;
+    height: 100vh;
+    background: url("sculpture.jpg") center/cover no-repeat;
+    position: relative;
+  }
+
+  .sculpture-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    z-index: 10;
+    top: 40%;
+    pointer-events: none;
+  }
+
+  .sculpture-text p{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 15px;
+  }
+  
+  .light {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
